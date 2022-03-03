@@ -30,7 +30,17 @@ class ViewController: UIViewController
         var finalval = val1 * val2
         var finalvalS = String(finalval)
         outputLabel.text = finalvalS
+        num1.resignFirstResponder()
+        num2.resignFirstResponder()
     }
+    
+    @IBAction func clearButton(_ sender: Any)
+    {
+        outputLabel.text = ""
+        num1.text = ""
+        num2.text = ""
+    }
+    
     
 
 }
