@@ -60,12 +60,17 @@
                                     <action selector="clearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uad-Tl-qqi"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="laugh2" translatesAutoresizingMaskIntoConstraints="NO" id="Day-fY-5aV">
+                                <rect key="frame" x="87" y="512" width="240" height="161"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
                         <outlet property="OutputLabel" destination="BXi-aa-XGf" id="d9V-Sh-eha"/>
+                        <outlet property="emojis" destination="Day-fY-5aV" id="iSG-24-Oha"/>
                         <outlet property="num1" destination="Dh4-SX-HuZ" id="5eC-JO-yxl"/>
                         <outlet property="num2" destination="Kvf-Hh-1u8" id="3EW-On-DEv"/>
                     </connections>
@@ -76,6 +81,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="laugh2" width="1200" height="628"/>
         <image name="xmark.circle.fill" catalog="system" width="128" height="121"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
